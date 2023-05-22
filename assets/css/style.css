@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.envato {
+  background-color: black;
+}
+.envato .container1 {
+  width: 95%;
+  margin: 0 2.5%;
+}
+.envato .button button {
+  width: 105px;
+  height: 40px;
+  background-color: #82B440;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.envato .button button:hover {
+  background-color: hwb(86 13% 42%);
+}
+
+nav {
+  background-color: #F5F5F5;
+}
+nav .container1 {
+  padding: 20px;
+  width: 85%;
+  margin: 0 7.5%;
+}
+nav .list {
+  display: flex;
+}
+nav .list .li {
+  display: flex;
+}
+nav .list .li li {
+  margin: 0 20px;
+}
+nav .list ul {
+  display: flex;
+}
+nav .list li {
+  list-style: none;
+}
+nav .list li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+nav .search ul {
+  display: flex;
+}
+nav .search ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+nav .search ul li .las {
+  margin: 0 5px;
+}
+nav .search ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.handmade {
+  width: 35%;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+.handmade h2 {
+  font-size: 40px;
+  color: black;
+}
+.handmade p {
+  font-size: 15px;
+  margin: 10px 0 90px 0;
+}
+.handmade a {
+  text-decoration: none;
+  list-style: none;
+  padding: 20px 50px;
+  color: gray;
+  background-color: white;
+}
+.handmade a:hover {
+  background-color: #f1c40f;
+  color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.row .img {
+  position: relative;
+}
+
+.text {
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+.text span {
+  display: block;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.text span:hover {
+  color: #f1c40f;
+  transition: 0.5s;
+}
+
+.products {
+  text-align: center;
+}
+.products .tr {
+  margin-top: 100px;
+}
+.products .tr::before {
+  left: 80px;
+  content: "";
+  width: 400px;
+  height: 1px;
+  background-color: grey;
+  position: absolute;
+}
+.products .tr::after {
+  right: 80px;
+  content: "";
+  width: 400px;
+  height: 1px;
+  background-color: grey;
+  position: absolute;
+  border-radius: 5px;
+}
+
+.images .images1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 5%;
+}
+.images .img {
+  width: 22.5%;
+}
+.images .img img {
+  margin: 20px 0;
+  width: 300px;
+  height: 500px;
+}
+
+.load-btn {
+  padding: 15px 60px;
+  text-align: center;
+  align-items: center;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+.load-btn:hover {
+  background-color: orchid;
+  transition: 0.5s;
+}
+
+.discount {
+  text-align: center;
+}
+.discount input {
+  text-align: center;
+  border: none;
+}
+.discount input:focus {
+  width: 700px;
+  height: 50px;
+}
+
+.footer {
+  background-color: black;
+  margin-top: 70px;
+  padding-top: 40px;
+}
+.footer h5 {
+  color: white;
+}
+.footer li {
+  color: gray;
+}
+.footer a {
+  color: grey;
+}
+.footer a:hover {
+  color: white;
+  transition: 0.5s;
+}
+.footer .end {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .end .Outstock {
+  width: 45%;
+}
+.footer .end .Outstock p {
+  margin: 20px 0;
+  font-size: 15px;
+}
+.footer .end .Outstock ul li {
+  list-style: none;
+}
+.footer .end .Outstock ul a {
+  font-size: 15px;
+}
+.footer .end .Outstock ul .las {
+  font-size: 20px;
+}
+
+.information h5 {
+  font-size: 20px;
+}
+.information ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+.Customer-Service h5 {
+  font-size: 20px;
+}
+.Customer-Service ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+.footer-copy {
+  margin: 40px 0;
+  line-height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-copy a:hover {
+  text-decoration: none;
+}
+.footer-copy a {
+  color: orangered;
+}
+.footer-copy p {
+  font-size: 15px;
+  color: white;
+}
+.footer-copy .icon ul {
+  display: flex;
+}
+.footer-copy .icon ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+.footer-copy .icon ul li a {
+  color: white;
+  font-size: 15px;
+}
+
+.footer {
+  position: relative;
+}
+.footer .top {
+  position: absolute;
+  right: 30px;
+  bottom: 50px;
+  background-color: orange;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.footer .top a .las {
+  font-size: 20px;
+  color: white;
+}
